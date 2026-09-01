@@ -1,0 +1,14 @@
+name: Shubham Pal
+
+on:
+ push:
+  branches: [ main ]
+
+jobs:
+ demo:
+  run-on: ubuntu-latest
+
+  steps:
+   - name: Greetings
+    run: echo "Hello from world"
+    
